@@ -20,6 +20,7 @@ public class PrimeChecker {
         }
     }
 
+    // Method returns true if number is prime
     public static boolean isPrime(int numberForChecking) {
         // Check special case for number 2
         if (numberForChecking == 2) {
