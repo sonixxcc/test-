@@ -10,6 +10,8 @@ public class PrimeChecker {
         System.out.println("Enter a number:");
 
         int numberForChecking = scanner.nextInt();
+        System.out.println("Checking number...");
+
 
         if (isPrime(numberForChecking)) {
             System.out.println("Prime");
