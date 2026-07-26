@@ -2,6 +2,7 @@ package Qa;
 
 import java.util.Scanner;
 
+// Class for checking whether a number is prime
 public class PrimeChecker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
