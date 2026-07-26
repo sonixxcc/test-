@@ -21,6 +21,11 @@ public class PrimeChecker {
     }
 
     public static boolean isPrime(int numberForChecking) {
+        // Check special case for number 2
+        if (numberForChecking == 2) {
+            return true;
+        }
+
         if (numberForChecking <= 1) {
             return false;
         }
