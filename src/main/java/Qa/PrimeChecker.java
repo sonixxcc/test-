@@ -23,7 +23,7 @@ public class PrimeChecker {
             return false;
         }
 
-        for (int i = 2; i < numberForChecking; i++) {
+        for (int i = 2; i <= Math.sqrt(numberForChecking); i++) {
             if (numberForChecking % i == 0) {
                 return false;
             }
