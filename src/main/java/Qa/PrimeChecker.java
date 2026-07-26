@@ -11,7 +11,7 @@ public class PrimeChecker {
         int numberForChecking = scanner.nextInt();
 
         if (isPrime(numberForChecking)) {
-            System.out.println("Prime");
+            System.out.println("Number is prime (main)");
         } else {
             System.out.println("Not prime");
         }
