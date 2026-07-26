@@ -14,7 +14,7 @@ public class PrimeChecker {
 
 
         if (isPrime(numberForChecking)) {
-            System.out.println("Prime");
+            System.out.println("Number is prime (dev)");
         } else {
             System.out.println("Not prime");
         }
