@@ -1,4 +1,4 @@
-package Qa;
+package qa;
 
 import java.util.Scanner;
 
