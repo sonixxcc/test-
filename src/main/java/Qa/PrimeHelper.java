@@ -2,6 +2,7 @@ package qa;
 
 import java.util.ArrayList;
 import java.util.List;
+import qa.PrimeChecker;
 
 public class PrimeHelper {
 
